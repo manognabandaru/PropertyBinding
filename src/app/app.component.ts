@@ -6,5 +6,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Parent Component';
+  showValue:number = 0;
+interpolate="test";
+  generate(){
+  this.showValue=Math.floor(Math.random()*20);
+  }
+
+ function(a,b)
+ {
+   return a+b;
+ }
+
 }
+
+
+
+
